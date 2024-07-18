@@ -7,14 +7,10 @@ module.exports = {
     paths: [
       "test/features/"
     ],
-    //publishQuiet: true,
     dryRun: false,
     require: [
       "test/steps/*.js",
       "test/fixtures/*.js",
-    ],
-    requireModule: [
-      "ts-node/register"
     ],
     format: [
       "progress-bar",
@@ -33,9 +29,6 @@ module.exports = {
     require: [
       "test/steps/*.js",
       "test/fixtures/*.js",
-    ],
-    requireModule: [
-      "ts-node/register"
     ],
     format: [
       "progress-bar",
